@@ -10,8 +10,8 @@ var Coil = (function(){
 	var FRAMERATE = 60;
 		
 	// Default dimensions of the world
-	var DEFAULT_WIDTH = 900,
-		DEFAULT_HEIGHT = 510;
+	var DEFAULT_WIDTH = 1200,
+		DEFAULT_HEIGHT = 810;
 	
 	// Flags if the game should output debug information
 	var DEBUG = URLUtil.queryValue('debug') == '1';
@@ -21,7 +21,7 @@ var Coil = (function(){
 	// The number of enemies that may exist at the same time,
 	// this scales depending on difficulty
 	var ENEMY_COUNT = 2;
-		ENEMY_SIZE = 10;
+		ENEMY_SIZE = 15;
 	
 	// The height of the header / status bar
 	var HEADER_HEIGHT = 30;
