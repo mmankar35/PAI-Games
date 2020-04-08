@@ -1,0 +1,20 @@
+#brand-logo {
+  width: 200px;
+}
+
+#qr-code-donate {
+  width: 200px;
+}
+
+#qr-code-donate img {
+  width: inherit;
+}
+
+.footer-link {
+  text-decoration: underline;
+  margin: 4px;
+}
+
+.game-card-image {
+  height: 200px;
+}
